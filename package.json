@@ -1,0 +1,17 @@
+{
+  "name": "obfs-playwright",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local Playwright sandbox for CSS obfuscation experiments",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "headed": "node src/index.js --headed"
+  },
+  "dependencies": {
+    "playwright": "1.64.0"
+  }
+}
